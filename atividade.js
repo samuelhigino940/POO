@@ -111,15 +111,15 @@ acelerar(){
 
 
 
-    //instanciando (criando) um objeto
+    //instanciando (criando) um objeto para o carro
 const carro1 = new Carros("vermelho", 2005)
     carro1.criarCarro()
     carro1.ligar()
     carro1.acelerar()
     carro1.desligar()
 
-  //instanciando (criando) um objeto
-const fusca1 = new Fuscas("preto", 1989)
+  //instanciando (criando) um objeto para o fusca
+const fusca1 = new Fusca("preto", 1989)
   fusca1.criarFuscas()
   fusca1.ligar()
   fusca1.acelerar()
