@@ -6,7 +6,7 @@
 
 
 
-// classe modelo (iniciar sempre com letra maiuscula)
+// classe modelo (iniciar sempre com letra maiuscula) para criação de veiculos
 class Carros {
     constructor(cor,ano) {
         this.cor = cor
