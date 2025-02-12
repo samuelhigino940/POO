@@ -49,7 +49,7 @@ class Fuscas {
 
 criarFuscas(){
     console.log("-------------------------------------------------------")
-    console.log(" ō͡≡o ")
+    console.log(" ō͡≡≡o ")
     console.log(`Fusca ${this.cor}`)
     console.log(`ano: ${this.ano}`)
 }
