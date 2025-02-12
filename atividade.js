@@ -18,7 +18,7 @@ class Carros {
 
 criarCarro(){
     console.log("-------------------------------------------------------")
-    console.log("🚙")
+    console.log("🚙💨")
     console.log(`Carro ${this.cor}`)
     console.log(`ano: ${this.ano}`)
 }
@@ -33,7 +33,7 @@ desligar(){
 
 
 acelerar(){
-    console.log("Katchauuu ____🚙___")
+    console.log("Katchauuu ____🚙💨___")
 }
 }
 
