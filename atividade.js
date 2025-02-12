@@ -18,7 +18,7 @@ class Carros {
 
 criarCarro(){
     console.log("-------------------------------------------------------")
-    console.log("🚘")
+    console.log("🚙")
     console.log(`Carro ${this.cor}`)
     console.log(`ano: ${this.ano}`)
 }
@@ -33,7 +33,7 @@ desligar(){
 
 
 acelerar(){
-    console.log("Katchauuu ____🚘___")
+    console.log("Katchauuu ____🚙___")
 }
 }
 
@@ -71,7 +71,7 @@ acelerar(){
 
 
 
-// classe modelo (iniciar sempre com letra maiuscula)
+// classe modelo
 class aviao extends Carros {
     constructor(cor,ano, envergadura ) {
         super(cor, ano)
@@ -80,11 +80,11 @@ class aviao extends Carros {
     }
 
     
-// açoes
+// açoes para criar o avião
 
 criarAviao(){
     console.log("-------------------------------------------------------")
-    console.log(" 🛫 ")
+    console.log(" 🛩️ ")
     console.log(`avião ${this.cor}`)
     console.log(`ano: ${this.ano}`)
     console.log(`envergadura: ${this.envergadura}`)
@@ -96,7 +96,7 @@ aterrizar(){
 }
 
 acelerar(){
-    console.log("🛫")
+    console.log("🛩️")
     console.log("____")
     console.log("")
 }
